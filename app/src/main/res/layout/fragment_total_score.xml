@@ -1,13 +1,25 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.codiodes.androideventbus.TotalScoreFragment">
+    android:orientation="vertical"
+    tools:context="com.codiodes.androideventbus.TotalScoreFragment"
+    android:background="#ffddee">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/total_score_title"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/total_score"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/total_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"/>
+</LinearLayout>
