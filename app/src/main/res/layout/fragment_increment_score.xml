@@ -5,11 +5,12 @@
     tools:context="com.codiodes.androideventbus.IncrementScoreFragment">
 
     <Button
+        android:id="@+id/btn_increment_score"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/tap_me"
         android:textSize="40sp"
         android:background="#000"
-        android:textColor="#fff"/>
+        android:textColor="#fff" />
 
 </FrameLayout>
